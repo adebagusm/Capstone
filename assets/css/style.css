@@ -93,7 +93,7 @@ margin-right: 10px;
 
 
 .login-image {
-background: url('/assets/img/Hero-Image.png');
+background: url('/assets/img/Hero.png');
 background-size: cover;
 background-position: center;
 width: 50%;
@@ -126,7 +126,7 @@ min-height: 500px;
   justify-content: center;
 }
 .signup-image {
-background: url("/assets/img/Hero-Image.png");
+background: url('/assets/img/Hero.png');
 background-size: cover;
 background-position: center;
 width: 100%;

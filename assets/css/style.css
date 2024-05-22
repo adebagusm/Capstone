@@ -1,20 +1,20 @@
 .navbar{
-    background-color: rgba(232, 226, 242, 1);
+  background-color: rgba(232, 226, 242, 1);
 }
 
 .login-button {
-  background-color:  rgb(110, 115, 226);
-  color: rgb(255, 255, 255);
-  font-size: 14px;
-  padding: 10px 20px;
-  border-radius: 10px;
-  transition: 0.3s background-color;
-  text-decoration: none;
-  margin-right: 10px;
+background-color:  rgb(110, 115, 226);
+color: rgb(255, 255, 255);
+font-size: 14px;
+padding: 10px 20px;
+border-radius: 10px;
+transition: 0.3s background-color;
+text-decoration: none;
+margin-right: 10px;
 }
 
 .login-button:hover {
-  background-color: rgb(36, 45, 221);
+background-color: rgb(36, 45, 221);
 }
 
 .Daftar-button {
@@ -29,129 +29,115 @@ margin-right: 10px;
 }
 
 .Daftar-button:hover {
-    background-color: rgb(36, 45, 221);
+  background-color: rgb(36, 45, 221);
 }
 
 .navbar-toggler {
-  border: none;
-  font-size: 1.25rem;
+border: none;
+font-size: 1.25rem;
 }
 
 .navbar-toggler:focus,
 .btn-close:focus {
-  box-shadow: none;
-  outline: none;
+box-shadow: none;
+outline: none;
 }
 
 .nav-link {
-  color: #666777;
-  font-weight: 500;
-  position: relative;
-  margin-right: 5px;
+color: #666777;
+font-weight: 500;
+position: relative;
+margin-right: 5px;
 }
 
 .nav-link:hover,
 .nav-link.active {
-  color: #000;
+color: #000;
 }
 @media (min-width: 991px) {
-  .nav-link::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 2px;
-    background-color: rgb(68, 0, 255);
-    visibility: hidden;
-    transition: 0.3s ease-in-out;
-  }
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: rgb(68, 0, 255);
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
 
-  .nav-link:hover::before,
-  .nav-link.active::before {
-    width: 60%;
-    visibility: visible;
-  }
+.nav-link:hover::before,
+.nav-link.active::before {
+  width: 60%;
+  visibility: visible;
+}
 }
 .btn-daftar{
-    background-color:rgb(68, 0, 255) ;
-    color: #e9e8e6;
+  background-color:rgb(68, 0, 255) ;
+  color: #e9e8e6;
 }
 
 .icon-button{
-  margin-top: 9px;
+margin-top: 9px;
 }
 
 
 .login-container {
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
+display: flex;
+min-height: 100vh;
+align-items: center;
+justify-content: center;
 }
 
 
-.login-image {
-background: url('/assets/img/Hero.png');
-background-size: cover;
-background-position: center;
-width: 50%;
-height: 50%;
-min-width: 300px;
-min-height: 500px;
-}
 
 
 .login-form {
-  max-width: 500px;
-  width: 400px;
-  height: 300px;
-  padding: 30px;
-  background: rgba(232, 226, 242, 1);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+max-width: 500px;
+width: 400px;
+padding: 30px;
+margin:100px 100px;
 }
 
 
 .btn-block{
-  margin-top: 10px;
- width: 340px;
+margin-top: 10px;
+width: 340px;
 }
 
 .signup-container {
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
+display: flex;
+min-height: 100vh;
+align-items: center;
+justify-content: center;
 }
-.signup-image {
-background: url('/assets/img/Hero.png');
-background-size: cover;
-background-position: center;
-width: 100%;
-height: 100%;
-min-height: 500px;
-margin-right: 900px;
+
+.signup-form {
+max-width: 500px;
+width: 400px;
+padding: 30px;
+margin:100px 100px;
 }
 
 
 
 
 #footer {
-    background: #e9e8e6;
-    padding: 30px 0;
-    color: #222222;
-    font-size: 14px;
-    text-align: center;
-    justify-content: first baseline;
-  }
-  
-  #footer .credits {
-    padding-top: 5px;
-    font-size: 13px;
-  }
-  
-  #footer .credits a {
-    color: #34b7a7;
-  }
+  background: #e9e8e6;
+  padding: 30px 0;
+  color: #222222;
+  font-size: 14px;
+  text-align: center;
+  justify-content: first baseline;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+#footer .credits a {
+  color: #34b7a7;
+}

@@ -1,0 +1,172 @@
+
+.navbar{
+    background-color: rgba(232, 226, 242, 1);
+  }
+
+  .navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+  }
+  
+  .navbar-toggler:focus,
+  .btn-close:focus {
+  box-shadow: none;
+  outline: none;
+  }
+  
+  .nav-link {
+  color: #666777;
+  font-weight: 500;
+  position: relative;
+  margin-right: 30px;
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+  color:rgb(68, 0, 255)
+  }
+  
+  
+    
+  .btn-group{
+    margin-right: 60px;
+  }
+  
+  
+  
+  .dropdown-item-keluar{
+    color: red;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
+  
+  
+  @media (min-width: 991px) {
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: rgb(68, 0, 255);
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover::before,
+  .nav-link.active::before {
+    width: 60%;
+    visibility: visible;
+  }
+  }
+  .icon-button{
+  margin-top: 9px;
+    }  
+    
+    #footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+  }
+  
+  #footer .credits a {
+    color: #34b7a7;
+  }
+  
+
+
+.question-card {
+    background-color: #eae6fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.pagination-card{
+    height: 350px;
+    width: 300px;
+    background-color: #0037ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.answer-option {
+    background-color: #ffffff;
+    border: 2px solid #eae6fa;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.answer-option:hover,
+.answer-option:focus {
+    background-color: #d7d4eb;
+}
+
+.selected {
+    background-color: #d7d4eb;
+}
+
+.pagination-buttons .number-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btn-active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.btn-answered {
+    background-color: #28a745;
+    color: white;
+    border-color: #28a745;
+}
+
+body {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+
+h2 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.invalid-feedback {
+  font-size: 0.875em;
+  color: #dc3545;
+}
